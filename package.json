@@ -1,0 +1,17 @@
+{
+  "name": "ninjafood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zakaria AITOUMERIEM <zakariaaitoumeriem1889@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/css/styles.css",
+    "start": "live-server public"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.3",
+    "tailwindcss": "^2.0.2"
+  }
+}
